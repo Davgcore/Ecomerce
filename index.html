@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.5/sweetalert2.min.js" integrity="sha512-jt82OWotwBkVkh5JKtP573lNuKiPWjycJcDBtQJ3BkMTzu1dyu4ckGGFmDPxw/wgbKnX9kWeOn+06T41BeWitQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.5/sweetalert2.min.css" integrity="sha512-InYSgxgTnnt8BG3Yy0GcpSnorz5gxHvT6OEoRWj91Gg+RvNdCiAharnBe+XFIDS754Kd9TekdjXw3V7TAgh6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/js/main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="nav">
+            <div class="nav__content">
+                <div class="content__icon">
+                    <a href="#home" class="navbar_logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="nav_logo-icon">
+                            <title>Academlo Logo</title>
+                            <g>
+                                <g>
+                                    <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span>STORE</span>
+                    </a>
+                </div>
+                <div class="content__menu">
+                    <a class="menu" href="#home">Home</a> 
+                    <a class="menu" href="#products">Products</a> 
+                </div>
+                <div class="content__menu__cart">
+                    <div class="content__cart">
+                        <iconCart class='bx bx-cart'></iconCart>
+                        <span class="amountProducts"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="home scrollPy" id="home">
+        <div class="home_body">
+            <h2 class="home_body-title">New Sweatshirt
+                COLLECTIONS 2022</h2>
+            <p class="home_body-paragragh">Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported
+                from
+                the 2022 series, with
+                a modern design.</p>
+            <p class="home_body-price">$14.00</p>
+            <a href="#products" class="home_body-btn">Show more</a>
+        </div>
+
+        <div class="home_header">
+            <div></div>
+            <div class="home_header-img">
+                <img src="https://academlostorev1.netlify.app/images/sweater2.png" alt="">
+            </div>
+        </div>
+        
+    </section>
+    <div id="products"></div>
+    <section class="butons">
+    </section>
+    <div class="cart">
+        <div class="close__cart"><i class='bx bx-x'></i></div>
+        <div class="cart__products" >
+        </div>
+        <div class="cart__total">
+            <div class="cart__total--info">
+                <span class="info__amount"></span>
+                <span class="info__total"></span> 
+            </div>
+
+            <button class="btn__buy">Comprar</button>
+        </div>
+    </div>
+    <div class="products"> 
+    </div>
+    
+    <footer>
+        <section class="content_footer container">
+            <div class="footer_info">
+                <h3 class="footer_info-title">Our information</h3>
+                <ul>
+                    <li><a href="#">Barranquilla - Colombia</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_info">
+                <h3 class="footer_info-title">About Us</h3>
+                <ul>
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Copy Right</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_info">
+                <h3 class="footer_info-title">Product</h3>
+                <ul>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Sweatshirts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_info">
+                <h3 class="footer_info-title">Social</h3>
+                <ul class="footer_link-social">
+                    <li>
+                        <a href="https://www.facebook.com/david.galvez.33234571?mibextid=LQQJ4d">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <p><b>David Galvez, Davgcore@gmail.com y <a href="">repositorio</a> de la persona que lo realizo</b></p>
+    </footer>
+</body>
+</html>
+
